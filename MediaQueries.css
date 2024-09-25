@@ -1,0 +1,111 @@
+/* home page */
+/* Responsive Design with Media Queries */
+@media (max-width: 992px) {
+    /* Adjust the layout for tablets and smaller laptops */
+    .nav_bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav_bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_bar ul li {
+        margin: 10px 0;
+    }
+
+    .first_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first_section > div {
+        width: 80%;
+    }
+
+    .leftsection {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .rightsection img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust the layout for mobile phones */
+    .nav_bar ul li {
+        margin: 8px 0;
+    }
+
+    .first_section > div {
+        width: 90%;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+    }
+
+    .rightsection img {
+        width: 95%;
+    }
+
+    .social-icon .bx {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust for very small screens */
+    .nav_bar {
+        justify-content: center;
+    }
+
+    .nav_bar ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav_bar ul li {
+        margin: 5px 0;
+    }
+
+    .left {
+        font-size: 1.2rem;
+    }
+
+    .leftsection {
+        font-size: 1.3rem;
+    }
+
+    .social-icon .bx {
+        width: 30px;
+        height: 30px;
+    }
+
+    .rightsection img {
+        width: 100%;
+    }
+}
+
+/* About page */
+/* Responsive Design */
+@media (max-width: 768px) {
+    .second_section {
+        flex-direction: column; /* Stack the image and text vertically */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .leftsection-1, .rightsection-1 {
+        max-width: 100%; /* Make sections full-width */
+    }
+}
+
+/*---------- Media Queries  Skills page--------------*/
+/* Styles for tablets (768px and up) */
+
